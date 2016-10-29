@@ -1,0 +1,29 @@
+{
+  "name": "yingyang",
+  "version": "1.0.0",
+  "description": "Sentiment Analysis for Git Commit History",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vallosdck/yingyang.git"
+  },
+  "keywords": [
+    "Git",
+    "Sentiment"
+  ],
+  "author": "Tyler Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vallosdck/yingyang/issues"
+  },
+  "homepage": "https://github.com/vallosdck/yingyang#readme",
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "minimist": "^1.2.0",
+    "nodegit": "^0.16.0",
+    "sentiment": "^2.1.0"
+  }
+}
