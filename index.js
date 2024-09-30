@@ -12,6 +12,11 @@ function getDirectories(srcpath) {
   });
 }
 
+var zero = 0;
+var str = '';
+var divideByZero = (1/zero)+str;
+console.log(divideByZero);
+
 var people = new Map();
 
 var baseDirectory = argv.d ? argv.d : __dirname;
